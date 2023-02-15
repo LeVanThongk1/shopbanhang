@@ -1,0 +1,131 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;	
+	    
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    line-height: 30px;
+    font-size: 16px;
+	
+}
+#header{
+	background-color: black;
+	height:50px;
+}
+.container{
+	width:1140px;
+    margin: 0px auto;
+    padding: 0px 15px;
+   
+}
+
+#header .container{
+	display: flex;
+	justify-content: space-between;
+	
+}
+#header .container  ul li {
+	display: inline;
+	line-height: 50px;
+}
+#header .container  ul li a{
+	display: inline-block;
+	margin-right:12px;
+	text-transform:uppercase;
+	font-size: 15px;
+	line-height: 30px;
+	
+	color: white;
+	border: 1px solid transparent;
+}
+#header .container  ul li a:hover{
+	border: 1px solid white;
+}
+.container h2{
+	margin-top:50px;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+	color: red;
+	text-align: center;
+}
+/* tim kiem */
+#tim.container {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #ebebeb;
+}
+#tim.container div {
+	width: calc((100%-60px)/3);
+
+}
+#tim.container div img{
+	display: inline-block;
+	width:100px;
+	height:100px;
+
+}
+#tim.container div {
+	height:100px;
+	line-height: 100px;
+	text-align: center;
+}
+#tim.container div #nhap {
+	padding-left :20px;
+	display: inline-block;
+	height: 30px;
+	width: 300px;
+	line-height: 100px;
+}
+#tim.container div #nut {
+	line-height:100px;
+	display: inline-block;
+	height: 30px;
+	width: 60px;
+	
+}
+#tim.container div #Cart {
+	font-size: 50px;
+	line-height: 100px;
+	
+}
+.container table {
+	margin-top:100px;
+	
+}
+.container table tr {
+	border: 1px solid black;
+	height: 30px;
+	width:500px;
+}
+.container table tr th {
+	border: 1px solid black;
+	height: 30px;
+	width:500px;
+}
+.container table tr td{
+	border: 1px solid black;
+}
+table tr td img{
+	display: inline-block;
+	height: 200px;
+	width: 150px;
+}
+#second-line  td a {
+	color: black;
+	border: 1px solid transparent;
+	background-color: greenyellow;
+	text-decoration: none;
+	font-weight: bold;
+	border: 1px solid black;
+}
+#second-line  td a:hover{
+	border: 1px solid red;
+	background: #ebebbe;
+}
